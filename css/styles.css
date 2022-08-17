@@ -1,61 +1,128 @@
 /* font-family: "Raleway", sans-serif; */
-
 :root {
-  --bgColor: #e5e5e5;
-  --fontColor: #212121;
-  --selectColor: ;
+  --BackgroundColor: #e5e5e5;
+  --FontBaseColor: #212121;
+  --SelectionColor: #2196f3;
 }
 body {
-  background-color: var(--bgColor);
-  color: var(--fontColor);
+  background-color: var(--BackgroundColor);
+  color: var(--FontBaseColor);
   font-family: "Roboto", sans-serif;
 }
-
 .logo {
-}
-
-.logo-color {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
+  text-decoration: none;
 }
-.buttons {
+.logo-recolor-header {
+  color: var(--FontBaseColor);
+}
+.logo-recolor-footer {
+  color: #fff;
+}
+.links {
+  text-decoration: none;
+  color: var(--FontBaseColor);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.links:hover {
+  color: var(--SelectionColor);
+}
+.links-current-highlight {
+  color: var(--SelectionColor);
+}
+.links-contact {
+  color: #757575;
+}
+
+.links-contact-footer {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+}
+
+.footer-background {
+  background: #2f303a;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.button {
   background: #f5f4fa;
-  color: #212121;
-  width: 93px;
-  height: 38px;
-  border-radius: 4px;
+  color: var(--FontBaseColor);
 }
-
-.buttons:hover {
-  background: #2196f3;
+.button:hover {
+  background: var(--SelectionColor);
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-order {
+  background: var(--SelectionColor);
   color: #ffffff;
 }
-
-.order-button {
-  background: #2196f3;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
+.button-order:hover {
+  background: #f5f4fa;
+  color: var(--FontBaseColor);
+  cursor: pointer;
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #2f303a;
+}
+.secondary-header {
   font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.paragraph-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--FontBaseColor);
+}
+.paragraph-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.person-name {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
-.order-button:hover {
-  background: #f5f4fa;
-  color: #212121;
+.person-position {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
-
 /* Projekt
 «A1» W katalogu głównym projektu znajduje się folder images z obrazami.
 
