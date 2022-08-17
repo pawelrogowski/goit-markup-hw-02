@@ -1,14 +1,21 @@
 /* font-family: "Raleway", sans-serif; */
 :root {
   --BackgroundColor: #e5e5e5;
+  --BackgroundColorSecondary: #2f303a;
   --FontBaseColor: #212121;
+  --FontSecondaryColor: #757575;
   --SelectionColor: #2196f3;
+  --ColorWhite: #ffffff;
+  --ColorWhiteTransp: #ffffff99;
+  --ColorAlmostWhite: #f5f4fa;
 }
+
 body {
   background-color: var(--BackgroundColor);
   color: var(--FontBaseColor);
   font-family: "Roboto", sans-serif;
 }
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -16,15 +23,18 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--SelectionColor);
   text-decoration: none;
 }
+
 .logo-recolor-header {
   color: var(--FontBaseColor);
 }
+
 .logo-recolor-footer {
   color: #fff;
 }
+
 .links {
   text-decoration: none;
   color: var(--FontBaseColor);
@@ -33,51 +43,70 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
 .links:hover {
   color: var(--SelectionColor);
 }
+
 .links-current-highlight {
   color: var(--SelectionColor);
 }
+
 .links-contact {
-  color: #757575;
+  color: var(--FontSecondaryColor);
 }
 
 .links-contact-footer {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff99;
+  color: var(--ColorWhite);
 }
 
 .footer-background {
-  background: #2f303a;
+  background: var(--BackgroundColorSecondary);
 }
 
 .address {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--ColorWhite);
 }
+
 .button {
-  background: #f5f4fa;
+  background: var(--ColorAlmostWhite);
   color: var(--FontBaseColor);
 }
+
 .button:hover {
   background: var(--SelectionColor);
-  color: #ffffff;
+  color: var(--ColorWhite);
   cursor: pointer;
 }
+
 .button-order {
   background: var(--SelectionColor);
-  color: #ffffff;
+  color: var(--ColorWhite);
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: var(--SelectionColor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
+
 .button-order:hover {
-  background: #f5f4fa;
+  background: rgb(245, 244, 250);
   color: var(--FontBaseColor);
   cursor: pointer;
 }
+
 .main-header {
   font-weight: 900;
   font-size: 44px;
@@ -85,9 +114,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #fff;
-  background: #2f303a;
+  color: var(--ColorWhite);
+  background: var(--BackgroundColorSecondary);
 }
+
 .secondary-header {
   font-weight: 700;
   font-size: 36px;
@@ -95,6 +125,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .paragraph-header {
   font-weight: 700;
   font-size: 14px;
@@ -103,11 +134,12 @@ body {
   text-transform: uppercase;
   color: var(--FontBaseColor);
 }
+
 .paragraph-text {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--FontSecondaryColor);
 }
 
 .person-name {
@@ -121,7 +153,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--FontSecondaryColor);
 }
 /* Projekt
 «A1» W katalogu głównym projektu znajduje się folder images z obrazami.
