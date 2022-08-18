@@ -1,17 +1,18 @@
 :root {
-  --BackgroundColor: #e5e5e5;
+  --BackgroundColorMain: #e5e5e5;
   --BackgroundColorSecondary: #2f303a;
-  --FontBaseColor: #212121;
-  --FontSecondaryColor: #757575;
+  --FontColorMain: #212121;
+  --FontColorSecondary: #757575;
   --SelectionColor: #2196f3;
+  --ButtonShadowColor: #00000026;
   --ColorWhite: #ffffff;
   --ColorWhiteTransp: #ffffff99;
   --ColorAlmostWhite: #f5f4fa;
 }
 
 body {
-  background-color: var(--BackgroundColor);
-  color: var(--FontBaseColor);
+  background-color: var(--BackgroundColorMain);
+  color: var(--FontColorMain);
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
@@ -27,16 +28,16 @@ body {
 }
 
 .logo-recolor-header {
-  color: var(--FontBaseColor);
+  color: var(--FontColorMain);
 }
 
 .logo-recolor-footer {
-  color: #fff;
+  color: var(--ColorWhite);
 }
 
 .links {
   text-decoration: none;
-  color: var(--FontBaseColor);
+  color: var(--FontColorMain);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,12 +48,19 @@ body {
   color: var(--SelectionColor);
 }
 
+.links:focus {
+  color: var(--SelectionColor);
+}
+
 .links-current-highlight {
   color: var(--SelectionColor);
 }
 
 .links-contact {
   color: var(--FontSecondaryColor);
+}
+.links-contact:focus {
+  color: var(--SelectionColor);
 }
 
 .links-contact-footer {
@@ -75,7 +83,7 @@ body {
 
 .button {
   background: var(--ColorAlmostWhite);
-  color: var(--FontBaseColor);
+  color: var(--FontColorMain);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -86,13 +94,18 @@ body {
   color: var(--ColorWhite);
   cursor: pointer;
 }
+.button:focus {
+  background: var(--SelectionColor);
+  color: var(--ColorWhite);
+  cursor: pointer;
+}
 
 .button-order {
   background: var(--SelectionColor);
   color: var(--ColorWhite);
 
   background: var(--SelectionColor);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--ButtonShadowColor);
   border-radius: 4px;
   font-weight: 700;
   font-size: 1.875;
@@ -100,8 +113,13 @@ body {
 }
 
 .button-order:hover {
-  background: rgb(245, 244, 250);
-  color: var(--FontBaseColor);
+  background: var(--ColorAlmostWhite);
+  color: var(--FontColorMain);
+  cursor: pointer;
+}
+.button-order:focus {
+  background: var(--ColorAlmostWhite);
+  color: var(--FontColorMain);
   cursor: pointer;
 }
 
@@ -129,7 +147,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--FontBaseColor);
+  color: var(--FontColorMain);
 }
 
 .paragraph-text {
