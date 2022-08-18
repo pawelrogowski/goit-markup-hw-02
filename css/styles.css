@@ -1,4 +1,3 @@
-/* font-family: "Raleway", sans-serif; */
 :root {
   --BackgroundColor: #e5e5e5;
   --BackgroundColorSecondary: #2f303a;
@@ -13,7 +12,7 @@
 body {
   background-color: var(--BackgroundColor);
   color: var(--FontBaseColor);
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 
 .logo {
@@ -21,7 +20,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--SelectionColor);
   text-decoration: none;
@@ -40,7 +39,7 @@ body {
   color: var(--FontBaseColor);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -69,7 +68,7 @@ body {
 
 .address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--ColorWhite);
 }
@@ -96,7 +95,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.875;
   line-height: 30px;
 }
 
@@ -109,8 +108,7 @@ body {
 .main-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ColorWhite);
@@ -120,7 +118,7 @@ body {
 .secondary-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -128,7 +126,7 @@ body {
 .paragraph-header {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--FontBaseColor);
@@ -136,7 +134,7 @@ body {
 
 .paragraph-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--FontSecondaryColor);
 }
@@ -144,13 +142,13 @@ body {
 .person-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187;
   letter-spacing: 0.03em;
 }
 
 .person-position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--FontSecondaryColor);
 }
