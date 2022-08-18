@@ -57,7 +57,7 @@ body {
 }
 
 .links-contact {
-  color: var(--FontSecondaryColor);
+  color: var(--FontColorSecondary);
 }
 .links-contact:focus {
   color: var(--SelectionColor);
@@ -65,7 +65,7 @@ body {
 
 .links-contact-footer {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--ColorWhite);
 }
@@ -154,7 +154,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--FontSecondaryColor);
+  color: var(--FontColorSecondary);
 }
 
 .person-name {
@@ -168,7 +168,7 @@ body {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  color: var(--FontSecondaryColor);
+  color: var(--FontColorSecondary);
 }
 
 .image-caption-main {
@@ -180,7 +180,7 @@ body {
 .image-caption-secondary {
   font-size: 16px;
   line-height: 1.88;
-  color: var(--FontSecondaryColor);
+  color: var(--FontColorSecondary);
 }
 
 /* Projekt
