@@ -77,6 +77,9 @@ body {
 .button {
   background: var(--ColorAlmostWhite);
   color: var(--FontBaseColor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .button:hover {
@@ -88,10 +91,6 @@ body {
 .button-order {
   background: var(--SelectionColor);
   color: var(--ColorWhite);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
 
   background: var(--SelectionColor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -155,6 +154,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--FontSecondaryColor);
 }
+
+.image-caption-main {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.image-caption-secondary {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--FontSecondaryColor);
+}
+
 /* Projekt
 «A1» W katalogu głównym projektu znajduje się folder images z obrazami.
 
