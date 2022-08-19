@@ -69,6 +69,10 @@ body {
   color: var(--colorWhiteTransp);
 }
 
+.links-contact-bottom-underline {
+  text-decoration: underline;
+}
+
 .bottom-background {
   background: var(--backgroundColorSecondary);
 }
