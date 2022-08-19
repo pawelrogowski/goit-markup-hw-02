@@ -1,17 +1,17 @@
 :root {
-  --BackgroundColorMain: #e5e5e5;
-  --BackgroundColorSecondary: #2f303a;
-  --FontColorMain: #212121;
-  --FontColorSecondary: #757575;
-  --SelectionColor: #2196f3;
-  --ColorWhite: #ffffff;
-  --ColorWhiteTransp: #ffffff99;
-  --ColorAlmostWhite: #f5f4fa;
+  --backgroundColorMain: #e5e5e5;
+  --backgroundColorSecondary: #2f303a;
+  --fontColorMain: #212121;
+  --fontColorSecondary: #757575;
+  --selectionColor: #2196f3;
+  --colorWhite: #ffffff;
+  --colorWhiteTransp: #ffffff99;
+  --colorAlmostWhite: #f5f4fa;
 }
 
 body {
-  background-color: var(--BackgroundColorMain);
-  color: var(--FontColorMain);
+  background-color: var(--backgroundColorMain);
+  color: var(--fontColorMain);
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
@@ -22,21 +22,21 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--SelectionColor);
+  color: var(--selectionColor);
   text-decoration: none;
 }
 
 .logo-recolor-top {
-  color: var(--FontColorMain);
+  color: var(--fontColorMain);
 }
 
 .logo-recolor-bottom {
-  color: var(--ColorWhite);
+  color: var(--colorWhite);
 }
 
 .links {
   text-decoration: none;
-  color: var(--FontColorMain);
+  color: var(--fontColorMain);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -44,65 +44,65 @@ body {
 }
 
 .links:hover {
-  color: var(--SelectionColor);
+  color: var(--selectionColor);
 }
 
 .links:focus {
-  color: var(--SelectionColor);
+  color: var(--selectionColor);
 }
 
 .links-current-highlight {
-  color: var(--SelectionColor);
+  color: var(--selectionColor);
 }
 
 .links-contact {
-  color: var(--FontColorSecondary);
+  color: var(--fontColorSecondary);
 }
 .links-contact:focus {
-  color: var(--SelectionColor);
+  color: var(--selectionColor);
 }
 
 .links-contact-bottom {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--ColorWhiteTransp);
+  color: var(--colorWhiteTransp);
 }
 
 .bottom-background {
-  background: var(--BackgroundColorSecondary);
+  background: var(--backgroundColorSecondary);
 }
 
 .address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--ColorWhite);
+  color: var(--colorWhite);
 }
 
 .btn {
-  background: var(--ColorAlmostWhite);
-  color: var(--FontColorMain);
+  background: var(--colorAlmostWhite);
+  color: var(--fontColorMain);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
 
 .btn:hover {
-  background: var(--SelectionColor);
-  color: var(--ColorWhite);
+  background: var(--selectionColor);
+  color: var(--colorWhite);
   cursor: pointer;
 }
 .btn:focus {
-  background: var(--SelectionColor);
-  color: var(--ColorWhite);
+  background: var(--selectionColor);
+  color: var(--colorWhite);
   cursor: pointer;
 }
 
 .btn-order {
-  background: var(--SelectionColor);
-  color: var(--ColorWhite);
-  background: var(--SelectionColor);
+  background: var(--selectionColor);
+  color: var(--colorWhite);
+  background: var(--selectionColor);
   border-radius: 4px;
   font-weight: 700;
   font-size: 1.875;
@@ -110,13 +110,13 @@ body {
 }
 
 .btn-order:hover {
-  background: var(--ColorAlmostWhite);
-  color: var(--FontColorMain);
+  background: var(--colorAlmostWhite);
+  color: var(--fontColorMain);
   cursor: pointer;
 }
 .btn-order:focus {
-  background: var(--ColorAlmostWhite);
-  color: var(--FontColorMain);
+  background: var(--colorAlmostWhite);
+  color: var(--fontColorMain);
   cursor: pointer;
 }
 
@@ -127,8 +127,8 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: var(--ColorWhite);
-  background: var(--BackgroundColorSecondary);
+  color: var(--colorWhite);
+  background: var(--backgroundColorSecondary);
 }
 
 .secondary-heading {
@@ -145,14 +145,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--FontColorMain);
+  color: var(--fontColorMain);
 }
 
 .paragraph-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--FontColorSecondary);
+  color: var(--fontColorSecondary);
 }
 
 .person-name {
@@ -166,7 +166,7 @@ body {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  color: var(--FontColorSecondary);
+  color: var(--fontColorSecondary);
 }
 
 .image-caption-main {
@@ -178,5 +178,5 @@ body {
 .image-caption-secondary {
   font-size: 16px;
   line-height: 1.88;
-  color: var(--FontColorSecondary);
+  color: var(--fontColorSecondary);
 }
