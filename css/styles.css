@@ -51,7 +51,7 @@ body {
   color: var(--selectionColor);
 }
 
-.links-current-highlight {
+.links-curr-hl {
   color: var(--selectionColor);
 }
 
